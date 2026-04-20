@@ -16,8 +16,10 @@ class ProjectItem {
     required this.role,
     required this.impact,
     required this.techStack,
-    required this.githubUrl,
-    required this.demoUrl,
+    this.githubUrl,
+    this.demoUrl,
+    this.appStoreUrl,
+    this.playStoreUrl,
   });
 
   final LocalizedText title;
@@ -25,8 +27,10 @@ class ProjectItem {
   final LocalizedText role;
   final LocalizedText impact;
   final List<String> techStack;
-  final String githubUrl;
-  final String demoUrl;
+  final String? githubUrl;
+  final String? demoUrl;
+  final String? appStoreUrl;
+  final String? playStoreUrl;
 }
 
 class ExperienceItem {
