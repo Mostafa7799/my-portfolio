@@ -1,0 +1,3 @@
+void openCvInNewTab() {}
+
+void downloadCv() {}
