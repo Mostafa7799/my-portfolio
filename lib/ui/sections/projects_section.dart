@@ -117,14 +117,26 @@ class _ProjectCardState extends State<_ProjectCard> {
             const Spacer(),
             Row(
               children: [
-                TextButton(
-                  onPressed: () => openExternalLink(widget.project.githubUrl),
-                  child: Text(l10n.t('project_github')),
-                ),
-                TextButton(
-                  onPressed: () => openExternalLink(widget.project.demoUrl),
-                  child: Text(l10n.t('project_demo')),
-                ),
+                if (widget.project.appStoreUrl != null)
+                  TextButton(
+                    onPressed: () => openExternalLink(widget.project.appStoreUrl!),
+                    child: Text(l10n.t('project_app_store')),
+                  ),
+                if (widget.project.playStoreUrl != null)
+                  TextButton(
+                    onPressed: () => openExternalLink(widget.project.playStoreUrl!),
+                    child: Text(l10n.t('project_play_store')),
+                  ),
+                if (widget.project.githubUrl != null)
+                  TextButton(
+                    onPressed: () => openExternalLink(widget.project.githubUrl!),
+                    child: Text(l10n.t('project_github')),
+                  ),
+                if (widget.project.demoUrl != null)
+                  TextButton(
+                    onPressed: () => openExternalLink(widget.project.demoUrl!),
+                    child: Text(l10n.t('project_demo')),
+                  ),
               ],
             )
           ],
