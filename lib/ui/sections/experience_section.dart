@@ -44,7 +44,6 @@ class ExperienceSection extends StatelessWidget {
                     ],
                   ),
                 ),
-                const SizedBox(width: 0),
                 Expanded(
                   child: Column(
                     children: experiences.map((item) {

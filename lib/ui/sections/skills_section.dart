@@ -37,7 +37,7 @@ class SkillsSection extends StatelessWidget {
         children: [
           SectionTitle(title: l10n.t('skills_title')),
           const SizedBox(height: 8),
-        _Legend(l10n: l10n),
+          _Legend(l10n: l10n),
           const SizedBox(height: 20),
           Wrap(
             spacing: 10,
