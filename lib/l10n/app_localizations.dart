@@ -51,6 +51,13 @@ class AppLocalizations {
       'language_toggle': 'EN | AR',
       'theme_toggle': 'Theme',
       'hero_name': 'Mostafa Mahmoud',
+      'stat_years': 'Years Experience',
+      'stat_apps': 'Published Apps',
+      'stat_projects': 'Projects',
+      'skill_cat_mobile': 'Mobile',
+      'skill_cat_backend': 'Backend / Tools',
+      'skill_cat_tools': 'Best Practices',
+      'find_me_on': 'Find me on',
     },
     'ar': {
       'nav_home': 'الرئيسية',
@@ -93,6 +100,13 @@ class AppLocalizations {
       'language_toggle': 'AR | EN',
       'theme_toggle': 'المظهر',
       'hero_name': 'مصطفى محمود',
+      'stat_years': 'سنوات خبرة',
+      'stat_apps': 'تطبيقاً منشوراً',
+      'stat_projects': 'مشروع',
+      'skill_cat_mobile': 'موبايل',
+      'skill_cat_backend': 'باك إند / أدوات',
+      'skill_cat_tools': 'أفضل الممارسات',
+      'find_me_on': 'تواصل معي على',
     }
   };
 
