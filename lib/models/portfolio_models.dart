@@ -20,6 +20,7 @@ class ProjectItem {
     this.demoUrl,
     this.appStoreUrl,
     this.playStoreUrl,
+    this.imageUrl,
   });
 
   final LocalizedText title;
@@ -31,6 +32,9 @@ class ProjectItem {
   final String? demoUrl;
   final String? appStoreUrl;
   final String? playStoreUrl;
+  /// Optional override image URL. When null the app icon is fetched from
+  /// the App Store (via iTunes API) or a branded placeholder is shown.
+  final String? imageUrl;
 }
 
 class ExperienceItem {
